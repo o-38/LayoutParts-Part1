@@ -3,14 +3,21 @@
 .listcard{
   display: flex;
   justify-content: center;
-}
+  padding: 30px;
+  }
 .list--box{
   width: 200px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   background: #d2b48c;
-  margin: 30px;
   list-style: none;
   padding: 10px;
 }
+.list--box:first-child{
+  margin-right: 60px;
+}
+.list--box:last-child{
+  margin-left: 60px;
+}
+

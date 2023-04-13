@@ -13,11 +13,9 @@
   background: #d2b48c;
   list-style: none;
   padding: 10px;
-}
-.list--box:first-child{
   margin-right: 60px;
 }
 .list--box:last-child{
-  margin-left: 60px;
+  margin-right: 0;
 }
 
